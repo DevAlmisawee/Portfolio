@@ -33,7 +33,7 @@ class Footer extends Component {
             <div className="col-md-4">
               <h5>Contact Info</h5>
               <address>
-                <p><i className="bi bi-map-marker-alt"></i> Minna, Niger State, Nigeria</p>
+                <p><i className="bi bi-geo-fill "></i> Minna, Niger State, Nigeria</p>
                 <p><i className="bi bi-telephone"></i> +2347037528450</p>
                 <p><i className="bi bi-envelope"></i> muhammadalmisawee@gmail.com</p>
               </address>
