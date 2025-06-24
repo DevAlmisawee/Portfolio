@@ -20,7 +20,7 @@ class AboutSection  extends React.Component {
                             </li>
                             <li className="mb-3">
                                 <i className="bi bi-telephone-fill me-2 text-secondary"></i>
-                                <strong>Phone:</strong> 00 202 0202
+                                <strong>Phone:</strong> +234 703 752 8450
                             </li>
                             <li className="mb-4">
                                 <i className="bi bi-envelope-fill me-2 text-secondary"></i>
