@@ -22,11 +22,11 @@ const HeroSection = () => {
               <button className="getInTouch btn btn-success btn-lg px-4 py-3">Get in Touch
               <i className="bi bi-arrow-right-short ms-2"></i>
             </button>
-            </a>
-            {/* <button className="btn btn-outline-light btn-lg px-4 py-3">
+             </a>
+             <button className="btn btn-outline-light btn-lg px-4 py-3">
               View Projects
-              <i className="bi bi-folder2-open ms-2"></i>
-            </button> */}
+              <i className="bi bi-folder2-open ms-2"><a href="https://DevAlmisawee.github.io/coinCheck/">First Project</a></i>
+            </button> 
           </div>
          <div className="social-icons mt-4 animate__animated animate__fadeIn animate__delay-3s">
                 <a href="https://facebook.com/profile.php?id=100045351396798&mibextid=rS40aB7S9Ucbxw6v" target="_blank" className="text-white mx-2 fs-4"><i className="bi bi-facebook"></i></a>
