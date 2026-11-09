@@ -13,10 +13,10 @@ class Footer extends Component {
       <footer className="footer mt-auto py-3 px-5 text-white">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
-              <h5>About Us</h5>
+            <div className="col-md-4 ">
+              <h5>About</h5>
               <p className="text-light">
-                We are a company dedicated to providing the best services to our customers.
+                Muhammad Ahmad Aliyu — Full-Stack Web Developer focused on building web applications and tools.
               </p>
             </div>
             
@@ -24,9 +24,9 @@ class Footer extends Component {
               <h5>Quick Links</h5>
               <ul className="list-unstyled">
                 <li><a href="/" className="text-white">Home</a></li>
-                <li><a href={AboutSection ? "#about" : "#" } className="text-white">About</a></li>
-                <li><a href={Main ? "#services" : "#"   } className="text-white">Services</a></li>
-                <li><a href={Form ? "#form" : "#"} className="text-white">Contact</a></li>
+                <li><a href="#about" className="text-white">About</a></li>
+                <li><a href="#projects" className="text-white">Projects</a></li>
+                <li><a href="#contact" className="text-white">Contact</a></li>
               </ul>
             </div>
             
@@ -34,7 +34,6 @@ class Footer extends Component {
               <h5>Contact Info</h5>
               <address>
                 <p><i className="bi bi-geo-fill "></i> Minna, Niger State, Nigeria</p>
-                <p><i className="bi bi-telephone"></i> +2347037528450</p>
                 <p><i className="bi bi-envelope"></i> muhammadalmisawee@gmail.com</p>
               </address>
             </div>
@@ -44,7 +43,7 @@ class Footer extends Component {
           
           <div className="row">
             <div className="col-md-6">
-              <p className="mb-0">&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
+              <p className="mb-0">&copy; {new Date().getFullYear()} Muhammad Ahmad Aliyu. All rights reserved.</p>
             </div>
             <div className="col-md-6 text-md-right">
               <div className="social-icons">
